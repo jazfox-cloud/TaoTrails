@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://taotrails.com/sitemap.xml
