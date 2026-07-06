@@ -18,6 +18,11 @@ const required = [
   "js/site.js",
   "public/assets/taotrails-hero-1600.jpg",
   "public/assets/taotrails-hero-900.jpg",
+  "public/assets/mountain-wudang.jpg",
+  "public/assets/mountain-zhongnan.jpg",
+  "public/assets/mountain-qingcheng.jpg",
+  "public/assets/mountain-longhu.jpg",
+  "public/assets/tao-te-ching-thumb.jpg",
   "robots.txt",
   "sitemap.xml"
 ];

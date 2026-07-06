@@ -253,6 +253,22 @@ h1 {
   text-decoration: none;
 }
 
+.image-card a {
+  padding: 0;
+  overflow: hidden;
+}
+
+.card-image {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-bottom: 1px solid var(--line);
+}
+
+.card-body {
+  padding: 18px 20px 22px;
+}
+
 .card h3 {
   margin: 0 0 8px;
   font-size: 22px;
@@ -261,6 +277,42 @@ h1 {
 .card p {
   margin: 0;
   color: var(--muted);
+}
+
+.location-tag,
+.map-location {
+  display: inline-flex;
+  align-items: center;
+  min-height: 26px;
+  margin: 0 0 10px;
+  padding: 4px 9px;
+  border: 1px solid rgba(31, 76, 56, 0.16);
+  border-radius: 999px;
+  background: rgba(237, 241, 234, 0.9);
+  color: var(--pine);
+  font-size: 12px;
+  font-weight: 760;
+}
+
+.mountain-figure,
+.article-thumb {
+  margin: 26px 0;
+}
+
+.mountain-figure img,
+.article-thumb img {
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid var(--line);
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+}
+
+.mountain-figure figcaption,
+.article-thumb figcaption {
+  margin-top: 8px;
+  color: var(--muted);
+  font-size: 14px;
 }
 
 .band {
@@ -379,6 +431,14 @@ h1 {
   color: var(--muted);
   font-size: 12px;
   font-weight: 560;
+}
+
+.map-pin .map-location {
+  display: block;
+  width: fit-content;
+  margin: 6px 0 0;
+  padding: 2px 7px;
+  font-size: 11px;
 }
 
 .pin-wudang {
