@@ -22,6 +22,10 @@ const required = [
   "public/assets/mountain-zhongnan.jpg",
   "public/assets/mountain-qingcheng.jpg",
   "public/assets/mountain-longhu.jpg",
+  "public/assets/mountain-wudang-square.jpg",
+  "public/assets/mountain-zhongnan-square.jpg",
+  "public/assets/mountain-qingcheng-square.jpg",
+  "public/assets/mountain-longhu-square.jpg",
   "public/assets/tao-te-ching-thumb.jpg",
   "robots.txt",
   "sitemap.xml"
