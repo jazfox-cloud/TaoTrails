@@ -10,6 +10,7 @@ const include = [
   "lifestyle",
   "public",
   "sacred-mountains",
+  "tao-te-ching",
   "taoism",
   "index.html",
   "robots.txt",

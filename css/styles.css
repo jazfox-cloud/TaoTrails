@@ -132,6 +132,11 @@ button.button {
   object-fit: cover;
 }
 
+.hero picture {
+  position: absolute;
+  inset: 0;
+}
+
 .hero::after {
   content: "";
   position: absolute;
@@ -440,6 +445,20 @@ h1 {
   padding: 14px 18px;
   background: #fff7ef;
   color: #4c382d;
+}
+
+.source-list {
+  display: grid;
+  gap: 12px;
+  padding-left: 0;
+  list-style: none;
+}
+
+.source-list li {
+  padding: 14px 16px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--white);
 }
 
 .checklist,

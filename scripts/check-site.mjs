@@ -5,6 +5,9 @@ const root = process.cwd();
 const required = [
   "index.html",
   "taoism/index.html",
+  "taoism/origins/index.html",
+  "tao-te-ching/index.html",
+  "tao-te-ching/chapter-1/index.html",
   "sacred-mountains/index.html",
   "sacred-mountains/wudang-mountain/index.html",
   "sacred-mountains/zhongnan-mountain/index.html",
@@ -13,7 +16,8 @@ const required = [
   "about/index.html",
   "css/styles.css",
   "js/site.js",
-  "public/assets/taotrails-hero.png",
+  "public/assets/taotrails-hero-1600.jpg",
+  "public/assets/taotrails-hero-900.jpg",
   "robots.txt",
   "sitemap.xml"
 ];
