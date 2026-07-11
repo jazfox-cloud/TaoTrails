@@ -27,6 +27,7 @@ const required = [
   "public/assets/mountain-qingcheng-square.jpg",
   "public/assets/mountain-longhu-square.jpg",
   "public/assets/tao-te-ching-thumb.jpg",
+  "_redirects",
   "robots.txt",
   "sitemap.xml"
 ];

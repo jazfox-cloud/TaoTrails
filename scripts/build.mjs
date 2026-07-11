@@ -13,6 +13,7 @@ const include = [
   "tao-te-ching",
   "taoism",
   "index.html",
+  "_redirects",
   "robots.txt",
   "sitemap.xml"
 ];
