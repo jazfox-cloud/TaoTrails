@@ -19,6 +19,7 @@ const required = [
   "terms/index.html",
   "css/styles.css",
   "js/site.js",
+  "js/email-link.js",
   "public/assets/taotrails-hero-1600.jpg",
   "public/assets/taotrails-hero-900.jpg",
   "public/assets/mountain-wudang.jpg",
@@ -55,6 +56,10 @@ for (const file of htmlFiles) {
       console.error(`${file} is missing ${marker}`);
       failed = true;
     }
+  }
+  if (/mailto:|hello@taotrails\.com/i.test(html)) {
+    console.error(`${file} exposes a raw email address to Cloudflare Email Protection`);
+    failed = true;
   }
 }
 
