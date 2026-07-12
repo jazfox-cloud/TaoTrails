@@ -7,6 +7,7 @@ const include = [
   "about",
   "contact",
   "css",
+  "functions",
   "js",
   "lifestyle",
   "public",
