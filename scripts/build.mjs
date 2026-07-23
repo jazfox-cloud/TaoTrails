@@ -16,6 +16,7 @@ const include = [
   "terms",
   "tao-te-ching",
   "taoism",
+  "404.html",
   "index.html",
   "_redirects",
   "robots.txt",

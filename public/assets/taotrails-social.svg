@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title description">
+  <title id="title">TaoTrails social sharing image</title>
+  <desc id="description">An original abstract mountain trail beneath a rising sun in the TaoTrails color palette.</desc>
+  <rect width="1200" height="630" fill="#fbfaf5"/>
+  <circle cx="934" cy="146" r="88" fill="#d7a944"/>
+  <path d="M0 410 218 238 382 358 558 176 778 373 938 257 1200 438V630H0Z" fill="#dce2d7"/>
+  <path d="M0 474 244 314 404 425 579 259 752 414 940 320 1200 489V630H0Z" fill="#5f7a4d"/>
+  <path d="M0 520 258 392 430 494 600 344 770 487 952 397 1200 535V630H0Z" fill="#1f4c38"/>
+  <path d="M466 630c28-109 59-188 103-236 41-44 93-68 162-86-38 44-65 91-82 139-17 49-24 110-18 183Z" fill="#fbfaf5"/>
+  <path d="M520 630c21-94 47-163 82-207 31-39 70-65 120-87-29 40-49 82-61 126-12 45-16 101-11 168Z" fill="#b46a3c"/>
+  <g transform="translate(82 88)">
+    <circle cx="42" cy="42" r="42" fill="#1f4c38"/>
+    <text x="42" y="57" fill="#fbfaf5" font-family="Georgia, 'Times New Roman', serif" font-size="48" text-anchor="middle">T</text>
+    <text x="112" y="48" fill="#18201b" font-family="Georgia, 'Times New Roman', serif" font-size="64" font-weight="700">TaoTrails</text>
+    <text x="115" y="90" fill="#5d685f" font-family="Inter, Arial, sans-serif" font-size="24" letter-spacing="1">TAOIST CULTURE · SACRED MOUNTAIN JOURNEYS</text>
+  </g>
+</svg>

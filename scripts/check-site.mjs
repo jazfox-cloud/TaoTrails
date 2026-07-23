@@ -17,6 +17,7 @@ const required = [
   "contact/index.html",
   "privacy/index.html",
   "terms/index.html",
+  "404.html",
   "css/styles.css",
   "js/site.js",
   "js/email-link.js",
@@ -32,6 +33,8 @@ const required = [
   "public/assets/mountain-longhu-square.jpg",
   "public/assets/tao-te-ching-thumb.jpg",
   "public/assets/taoist-tea-mountain-table.jpg",
+  "public/assets/taotrails-social.svg",
+  "public/assets/taotrails-social.png",
   "functions/_middleware.js",
   "_redirects",
   "robots.txt",
@@ -51,7 +54,10 @@ for (const file of required) {
 const htmlFiles = required.filter((file) => file.endsWith(".html"));
 for (const file of htmlFiles) {
   const html = fs.readFileSync(path.join(root, file), "utf8");
-  for (const marker of ["<title>", 'name="description"', 'rel="canonical"']) {
+  const markers = file === "404.html"
+    ? ["<title>", 'name="description"', 'name="robots" content="noindex, follow"']
+    : ["<title>", 'name="description"', 'rel="canonical"'];
+  for (const marker of markers) {
     if (!html.includes(marker)) {
       console.error(`${file} is missing ${marker}`);
       failed = true;
